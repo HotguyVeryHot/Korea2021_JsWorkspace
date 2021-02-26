@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    /* 누구를(selecter) 어떻게{} */
+    body{
+        background-image: url(../images/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* html문서내에 있는 모든 컨텐츠는 반드시 마크업해야 원하는 디자인 효과를 낼수있따
+    따라서 주인공의 위치를 원하는곳에 두려면, html특성상 불가하다.
+    but, CSS를 이용하여 가능하게 할수있다.
+    - 스타일 시트의 위치지정 속성을 배워보자 */
+    .hero{
+        width: 300px;
+        position: absolute; /* 절대위치 */
+        left: 500px; /* X축 */
+        top: 600px; /* Y축 */
+    }
+</style>
+
+</head>
+<body>
+    <img src="../images/hero.png" class="hero">
+</body>
+</html>

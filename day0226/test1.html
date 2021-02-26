@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        /* 문서의 ID를 선택자로 사용할경우 #를 붙인다 */
+        #navi{
+            background-color: teal;
+            padding-left: 100px; /*왼쪽박스경계로부터 100px X축방향으로 증가*/
+        }
+        #content{
+            background-color: wheat;
+            height: 600px;
+            text-align: center; /* 태그요소 내에있는, 즉 박스내에 있는 컨텐츠 가운데 정렬 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 포지션의 대상이 되려면 적어도 태그(마크업)이 되어있어야한다 -->
+    <!-- <span>헬로우월드</span> -->
+    
+    <!-- div란 '분할'의 의미로써 하나의 문서내의 구역을 설정할때 사용된다 -->
+    <div id="navi">네비게이션</div>
+    <div id="content">사이트내용</div>
+</body>
+</html>

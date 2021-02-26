@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>회원가입</title>
+<style>
+    /* 이 영역은 스타일 시트의 영역이다. 즉, html 태그의 영역이 아니다.
+    누구를{어떻게~~}
+    누그를 지칭할떄 사용하는 CSS의 요소를 가리켜 선택자()    */
+    td{
+        font-size: 12px;
+        color: red
+    }
+    select{
+        color: white;
+        background-color: gray;
+    }
+    input{
+        background: salmon;
+        border: 2px solid green;
+    }
+    /* 나만의 일괄적용 + 원하는 곳에만 적용시킬수있는 나만의 스타일 정의 */
+    .title_style{
+        text-align: center;   
+    }
+    textarea{
+        background-color: pink;
+        background-image: url(https://i.ytimg.com/vi/ej0m3atWokE/maxresdefault.jpg);
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 300px;
+        background-size: 600px 300px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+</style>
+</head>
+<body>
+    <table border="1px" align="center" width="700">
+        <tr>
+            <td colspan="2" align="center" style="font-size: 20px;color: cornflowerblue;background-color: darkgreen;font-weight: bold;">회원가입</td>
+        </tr>
+        <tr>
+            <td class="title_style">ID</td>
+            <td><input type="text" placeholder="Your ID"></td>
+        </tr>
+        <tr>
+            <td class="title_style">Password</td>
+            <td><input type="password" placeholder="Your password"></td>
+        </tr>
+        <tr>
+            <td class="title_style">NAME</td>
+            <td><input type="text" placeholder="Your Name"></td>
+        </tr>
+        <tr>
+            <td class="title_style">Phone</td>
+            <td>
+                <input type="text" placeholder="국번"> -
+                <input type="text" placeholder="앞자리"> -
+                <input type="text" placeholder="뒷자리">
+            </td>
+        </tr>
+        <tr>
+            <td class="title_style">Email</td>
+            <td>
+                <input type="text" placeholder="Mail address">@
+                <select>
+                    <option value="">gmail.com</option>
+                    <option value="">nate.com</option>
+                    <option value="">naver.com</option>
+                    <option value="">daum.net</option>
+                    <option value="">직접입력</option>
+                </select>
+            </td>
+        </tr>
+<tr>
+    <td class="title_style">Skill</td>
+    <td>
+        <input type="checkbox"> node.js
+        <input type="checkbox"> oracle
+        <input type="checkbox"> mysql
+        <input type="checkbox"> javascriot
+        <input type="checkbox"> css
+        <input type="checkbox"> react
+    </td>
+</tr>
+<tr>
+    <td class="title_style">Email receive</td>
+    <td>
+        <input type="radio" name="mail"> YES
+        <input type="radio" name="mail"> NO
+    </td>
+</tr>
+<tr>
+    <td class="title_style">Itroduction</td>
+    <td>
+        <textarea ></textarea>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" align="center">
+        <button>가입</button>
+    </td>
+</tr>
+    </table>
+
+    <hr>
+
+<!-- 목록을 표현해 보자
+    순서있는 목록 : ordered list(ol)
+    순서없는 목록 : unordered list(ul) -->
+
+    <ol>
+        <li>사과</li>
+        <li>오렌지</li>
+        <li>딸기</li>
+        <li>포도</li>
+        <li>배</li>
+    </ol>
+    <ul>
+        <li>사과</li>
+        <li>오렌지</li>
+        <li>딸기</li>
+        <li>포도</li>
+        <li>배</li>
+    </ul>
+<!--  -->
+    <h1>더미 텍스트</h1>
+    <h2>더미 텍스트</h2>
+    <h3>더미 텍스트</h3>
+    <h4>더미 텍스트</h4>
+    <h5>더미 텍스트</h5>
+    <h6>더미 텍스트</h6>
+
+    <img src="">
+
+    <p>
+    <span style="font-size: 90px;">Lorem</span> <b>ipsum</b> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut
+    </p>
+    <p>
+    The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave
+    </p>
+</body>
+</html>
